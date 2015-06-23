@@ -11,6 +11,8 @@ GEM
       schash (~> 0.1.0)
       specinfra (>= 2.31.0, < 3.0.0)
       thor
+    itamae-plugin-recipe-rbenv (0.3.2)
+      itamae (~> 1.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -37,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   itamae
+  itamae-plugin-recipe-rbenv
   serverspec
 
 BUNDLED WITH
