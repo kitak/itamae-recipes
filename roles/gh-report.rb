@@ -1,3 +1,7 @@
+include_recipe "../cookbooks/ruby/default.rb"
+include_recipe "../cookbooks/mongodb/default.rb"
+include_recipe "../cookbooks/fluentd/default.rb"
+
 [
   'fluentd',
   'fluent-plugin-mongo',
