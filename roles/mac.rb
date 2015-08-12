@@ -18,3 +18,5 @@ execute 'install vagrant' do
   command 'brew cask install vagrant'
   not_if 'ls /opt/homebrew-cask/Caskroom | grep vagrant'
 end
+
+include_recipe "../cookbooks/fabric/default.rb"
